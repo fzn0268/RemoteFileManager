@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RemoteFileManager</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Server</string>
+    <string name="title_section3">Client</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strMaxConn">Max Connection:</string>
+    <string name="strStartServer">Start Server</string>
+    <string name="strStopServer">Stop Server</string>
+    <string name="hintAddress">Address</string>
+    <string name="strConnect">Connect</string>
+    <string name="strDisconnect">Disconnect</string>
+    <string name="hintMessage">Input Message Here</string>
+    <string name="strSend">Send</string>
+    <string name="strRecv">Receive</string>
+</resources>
