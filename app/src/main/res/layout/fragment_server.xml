@@ -5,11 +5,6 @@
     tools:context="fzn.projects.android.remotefilemanager.ServerFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:text="@string/hello_blank_fragment" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -50,10 +45,22 @@
 
     </LinearLayout>
 
-    <ListView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lvClient"
-        android:layout_below="@id/serverButtons" />
+        android:layout_below="@id/serverButtons">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hello_blank_fragment" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvClient" />
+
+    </FrameLayout>
 
 </RelativeLayout>
